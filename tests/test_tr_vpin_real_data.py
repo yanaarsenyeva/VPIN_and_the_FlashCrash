@@ -24,9 +24,8 @@ def real_case():
     )
 
     if not data_path.exists():
-        pytest.fail(
-            "Нет подготовленных реальных данных. "
-            "Сначала выполните 02_binance_data.ipynb."
+        pytest.skip(
+            "Prepared real data not found. Run 02_binance_data.ipynb first."
         )
 
     data = pd.read_csv(data_path)

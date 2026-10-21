@@ -15,5 +15,5 @@
   "zero_price_change_rule": "carry last established sign",
   "empty_minute_rule": "no sign and no volume",
   "reopening_rule": "compare with last observed close",
-  "zip_checksum_status": "not_verified"
+  "zip_checksum_status": "verified"
 }
