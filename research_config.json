@@ -1,0 +1,19 @@
+{
+  "symbol": "BTCUSDT",
+  "market": "Binance Spot",
+  "data_type": "trades",
+  "timezone": "UTC",
+  "train_start": "2020-01-01",
+  "train_end_exclusive": "2020-03-01",
+  "test_start": "2020-03-01",
+  "test_end_exclusive": "2020-04-01",
+  "time_bar_seconds": 60,
+  "target_buckets_per_day": 50,
+  "bucket_volume_btc": 1100.3497641153333,
+  "vpin_window": 50,
+  "initial_unclassified_volume_btc": 51.642812,
+  "zero_price_change_rule": "carry last established sign",
+  "empty_minute_rule": "no sign and no volume",
+  "reopening_rule": "compare with last observed close",
+  "zip_checksum_status": "not_verified"
+}

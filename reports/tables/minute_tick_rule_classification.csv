@@ -1,0 +1,3 @@
+sample,classified_minutes,volume_btc,matching_volume_pct,opposite_volume_pct
+train_jan_feb,85985,3300997.649534,58.8933498141219,41.1066501858781
+test_march,44512,3789768.913125,57.505009659070964,42.494990340929036

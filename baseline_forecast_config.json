@@ -1,0 +1,29 @@
+{
+  "target": "rv_next_1h_pct",
+  "forecast_horizon_minutes": 60,
+  "models": {
+    "TR_only": [
+      "tr_vpin"
+    ],
+    "Controls": [
+      "rv_prev_1h_pct",
+      "log_volume_prev_1h"
+    ],
+    "Controls_TR": [
+      "rv_prev_1h_pct",
+      "log_volume_prev_1h",
+      "tr_vpin"
+    ],
+    "Controls_U2": [
+      "rv_prev_1h_pct",
+      "log_volume_prev_1h",
+      "u2_vpin"
+    ]
+  },
+  "fit_method": "OLS with intercept",
+  "training": "January–February 2020",
+  "testing": "March 2020",
+  "refit_during_test": false,
+  "negative_forecasts_clipped": false,
+  "inference": "not yet performed"
+}

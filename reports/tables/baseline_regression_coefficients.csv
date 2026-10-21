@@ -1,0 +1,14 @@
+model,term,coefficient
+TR_only,const,0.17923367087902323
+TR_only,tr_vpin,1.514336499472396
+Controls,const,-0.6970740456350285
+Controls,rv_prev_1h_pct,0.21003736889672317
+Controls,log_volume_prev_1h,0.14900983181500604
+Controls_TR,const,-0.7308077137109243
+Controls_TR,rv_prev_1h_pct,0.19749309022342534
+Controls_TR,log_volume_prev_1h,0.1414236648476527
+Controls_TR,tr_vpin,0.40607726679494593
+Controls_U2,const,-0.746559823491334
+Controls_U2,rv_prev_1h_pct,0.19915262485072993
+Controls_U2,log_volume_prev_1h,0.1410729190439955
+Controls_U2,u2_vpin,0.41713587455483264
