@@ -59,8 +59,3 @@ The baseline controls are lagged realized volatility and lagged log trading volu
 | Controls_TR_EX | Controls + TR-VPIN + exchange-direction VPIN |
 | Persistence | Previous one-hour realized volatili
 
-## Results 
-
-Overall, our code demonstrated similar tendencies and behaviors to the ones discussed in the paper: informative trade-direction classification plays a smaller role in TR-VPIN formation than simple trading frequency.
-
-We construct 9 tests in order to evaluate the work of our model and methods as well as implement such extensions to the original work as construction VPIN-like measure which serves as a tick-rule alternative. 
