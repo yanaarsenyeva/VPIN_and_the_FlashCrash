@@ -24,7 +24,7 @@ Our main hypothesis follows Andersen and Bondarenko: much of the apparent inform
 - Target: next-one-hour realized volatility, `rv_next_1h_pct`.
 - Main event: 12–13 March 2020.
 
-The raw data are not included in this repository. Download Binance historical klines and trades using the instructions in `data/README.md` (or the data-preparation notebook), then run the preprocessing notebooks to create the files in `data/processed/`.
+The raw data are not included in this repository. 
 
 ## Methods
 
@@ -58,3 +58,9 @@ The baseline controls are lagged realized volatility and lagged log trading volu
 | Controls_EX | Controls + exchange-direction VPIN |
 | Controls_TR_EX | Controls + TR-VPIN + exchange-direction VPIN |
 | Persistence | Previous one-hour realized volatili
+
+## Results 
+
+Overall, our code demonstrated similar tendencies and behaviors to the ones discussed in the paper: informative trade-direction classification plays a smaller role in TR-VPIN formation than simple trading frequency.
+
+We construct 9 tests in order to evaluate the work of our model and methods as well as implement such extensions to the original work as construction VPIN-like measure which serves as a tick-rule alternative. 
