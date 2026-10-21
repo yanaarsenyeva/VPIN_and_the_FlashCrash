@@ -1,0 +1,17 @@
+# Market data files
+data/raw/
+data/processed/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local secrets
+.env
+
+# macOS
+.DS_Store
